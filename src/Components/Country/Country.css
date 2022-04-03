@@ -1,0 +1,10 @@
+.bg-style{
+    border-style: solid;
+    border-color: aqua;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 2px;    
+}
+.bg-style img{
+    width: 100px;
+}

@@ -1,14 +1,16 @@
 import React from 'react';
+import './Country.css';
 
 const Country = (props) => {
 
-    const {name,capital}=props.country;
+    const {name,capital,flag}=props.country;
     
     return (
 
-        <div>
+        <div className='bg-style'>
+            <img src={flag} alt='country-flag'/>
             <h4>This is {name}</h4>
-            <p>Capital is {capital} </p>
+            <p>Capital is <strong>{capital} </strong></p>
         </div>
 
     );
